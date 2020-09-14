@@ -11,3 +11,4 @@ print(my_list, type(my_list), id(my_list), sys.getsizeof(my_list))
 
 my_list = '12.5'
 print(my_list, type(my_list), id(my_list), sys.getsizeof(my_list))
+
