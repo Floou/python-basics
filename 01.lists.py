@@ -1,14 +1,19 @@
-import sys
+student_marks = []
+while True:
+    mark = input('введите оценку студента:\n')
+    if mark:
+        student_marks.append(mark)
+    else:
+        break
 
-my_list = [12, '16', 95.32, 55, True]
-print(my_list, type(my_list), id(my_list), sys.getsizeof(my_list))
+print('ввод завершен')
+print(student_marks)
 
-my_list = 12
-print(my_list, type(my_list), id(my_list), sys.getsizeof(my_list))
-
-my_list = 12.5
-print(my_list, type(my_list), id(my_list), sys.getsizeof(my_list))
-
-my_list = '12.5'
-print(my_list, type(my_list), id(my_list), sys.getsizeof(my_list))
-
+i = 0
+avg_mark = 0
+while i < len(student_marks) :
+    #print(type(avg_mark), type(student_marks[i]))
+    avg_mark +=int(student_marks[i])
+    i += i + 1
+avg_mark /= len(student_marks)
+print('средний балл',avg_mark)
