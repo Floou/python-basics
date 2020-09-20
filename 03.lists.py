@@ -30,7 +30,9 @@ student_2_marks = [
 #    lesson_dates, mark = record
 #    print(lesson_dates, 'оценка', mark)
 for lesson_dates, mark,mark2 in zip(lesson_dates, student_marks, student_2_marks):
-    print(lesson_dates, 'оценка', mark, mark2)
+    print(lesson_dates)
+curren_data = input('введите дату:\n')
+
 
 #i = 0
 #while i < len(student_marks):
