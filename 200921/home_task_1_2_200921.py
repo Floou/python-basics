@@ -1,5 +1,5 @@
 #1
-#row_record = '217.168.17.5 - - [17/May/2015:08:05:12 +0000] "GET /downloads/product_2 HTTP/1.1" 200 3316 "-" "-"'
+#row_record = '217.168.17.5 - - [ 17/May/2015:08:05:12 +0000] "GET /downloads/product_2 HTTP/1.1" 200 3316 "-" "-"'
 #correct_request_IP_address = '217.168.17.5'
 #correct_request_datetime = '17/May/2015:08:05:12'
 
@@ -18,9 +18,9 @@
 #correct_requested_resource = '/downloads/product_2'
 
 #request_IP_address = row_record.split()[0]
-#request_datetime = row_record.split()[4]
-#request_method = row_record.split()[6]
-#requested_resource = row_record.split()[7]
+#request_datetime = row_record.split()[3]
+#request_method = row_record.split()[5]
+#requested_resource = row_record.split()[6]
 #print(request_IP_address, ", ", request_datetime, ", ", request_method, ", ", requested_resource)
 
 #assert request_IP_address == correct_request_IP_address
