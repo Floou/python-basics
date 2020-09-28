@@ -18,8 +18,8 @@
 #correct_requested_resource = '/downloads/product_2'
 
 #request_IP_address = row_record.split()[0]
-#request_datetime = row_record.split()[3]
-#request_method = row_record.split()[5]
+#request_datetime = row_record.split()[3].strip('[')
+#request_method = row_record.split()[5].strip('"')
 #requested_resource = row_record.split()[6]
 #print(request_IP_address, ", ", request_datetime, ", ", request_method, ", ", requested_resource)
 
