@@ -66,7 +66,7 @@ print(user_1, 'surname:', user_1.surname, 'age:', user_1.age, 'birthday:', user_
 user_2 = Car()
 user_2.brand = 'Toyota'
 user_2.mileage = '42141'
-print(user_2, user_2.brand, user_2.meleage, user_2.color)
+print(user_2, user_2.brand, user_2.mileage, user_2.color)
 
 user_2.engine = 2.0
-print(user_2, user_2.brand, user_2.meleage, user_2.engine)
+print(user_2, user_2.brand, user_2.mileage, user_2.engine)
