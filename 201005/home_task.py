@@ -50,7 +50,7 @@ class StudentOnExam:
 class Car:
     def __init__(self):
         self.engine = None
-        self.color = 'while'
+        self.color = 'white'
         self.brand = None
         self.mileage = None
 
