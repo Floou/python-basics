@@ -23,14 +23,14 @@ class StudyGroup:
     def __init__(self):
         self.number = None
         self.progress = None
-        self.specialty  = None
+        self.specialty = None
         self.mark = None
 
 
 class College:
     def __init__(self):
         self.abbreviation = None
-        self.discipline  = None
+        self.discipline = None
         self.license = None
 
 class Exam:
